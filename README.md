@@ -1,6 +1,7 @@
 # Analyzing King County House Sales Data.
 
 ![alt text](image-1.png)
+
 ## Project overview
 The aim of this project is to analyze the King County House Sales dataset, which comprises data from house sales in King County, spanning the years 2014 to 2015. This dataset provides a comprehensive view of various factors influencing house prices in the region, including location, size, condition, and other relevant attributes. By exploring and analyzing this dataset, we seek to gain insights into the factors that drive house prices in King County and to build predictive models to estimate house prices accurately.
 
@@ -30,6 +31,7 @@ By performing these steps, we aimed to gain a comprehensive understanding of the
 1. Linear regression model
 
 A simple linear regression model was built using the square footage of living space (sqft_living) as the predictor due to its strong correlation with house prices and linear relationship.
+
 ![alt text](image-2.png)
 
 The resulting linear regression model had an R-squared value of 0.49, indicating that 49% of the variance in house prices could be explained by square footage alone. However, this model showed significant variability in predictions, as evidenced by a high Root Mean Squared Error (RMSE) of approximately 256,860.61.
@@ -39,9 +41,13 @@ The resulting linear regression model had an R-squared value of 0.49, indicating
 The subsequent multiple linear regression model incorporated a broader set of features to better capture the variance in house prices, resulting in an improved R-squared value of 0.676.
 
 To enhance the predictive power and normality of the target variable, we performed a log transformation on house prices (price), leading to a more symmetric distribution
+
 ![alt text](image-3.png)
+
 Using log-transformed price;
+
 ![alt text](image-4.png)
+
 This log-transformed multiple linear regression model achieved a higher R-squared value of 0.772, explaining approximately 77.2% of the variance in log-transformed prices.
 
 ## Conclusion
