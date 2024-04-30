@@ -11,6 +11,7 @@ We use an iterative process to prepare and model our data while utilizing explor
 The stakeholder for this project is a real estate agency specializing in residential property transactions. The business problem revolves around the need to offer strategic advice to homeowners on how specific renovations can impact their homes' market value. By understanding which home features contribute most significantly to property valuation, the agency can provide valuable guidance to clients seeking to maximize their investment returns through targeted improvements.
 
 ## Data understanding
+
 This project utilizes the King County House Sales dataset, which is available in the kc_house_data.csv file located in the data folder of this GitHub repository. A comprehensive description of the column names can be found in the column_names.md file in the same folder. While the column names provide some information, it is important to note that further research or informed judgment may be necessary to fully understand the meaning of the data.
 
 The analysis performed on the dataset included the following steps:
