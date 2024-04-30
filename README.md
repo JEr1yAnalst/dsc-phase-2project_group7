@@ -28,7 +28,7 @@ The analysis performed on the dataset included the following steps:
 By performing these steps, we aimed to gain a comprehensive understanding of the dataset and prepare it for further analysis and modeling
 
 ## Modelling
-1. Linear regression model
+#### 1. Linear regression model
 
 A simple linear regression model was built using the square footage of living space (sqft_living) as the predictor due to its strong correlation with house prices and linear relationship.
 
@@ -36,7 +36,7 @@ A simple linear regression model was built using the square footage of living sp
 
 The resulting linear regression model had an R-squared value of 0.49, indicating that 49% of the variance in house prices could be explained by square footage alone. However, this model showed significant variability in predictions, as evidenced by a high Root Mean Squared Error (RMSE) of approximately 256,860.61.
 
-2. Multiple linear regression model
+#### 2. Multiple linear regression model
 
 The subsequent multiple linear regression model incorporated a broader set of features to better capture the variance in house prices, resulting in an improved R-squared value of 0.676.
 
