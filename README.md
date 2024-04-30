@@ -7,7 +7,7 @@ The aim of this project is to analyze the King County House Sales dataset, which
 We use an iterative process to prepare and model our data while utilizing exploratory data analysis to better understand our dataset. Next, we try to iterate across models using various statistical techniques in order to identify the model with the best statistical R-Squared Value, RMSE, and differential values.
 
 ## Business understanding
-The following are the goals which we have addressed with in this analysis:
+The following are the goals which we aim to address within this analysis:
 
 1. Explore and understand the structure and content of the King County House Sales dataset.
 2. Perform descriptive analysis to gain insights into key features, trends, and patterns in the data.
@@ -27,4 +27,24 @@ The analysis performed on the dataset included the following steps:
 By performing these steps, we aimed to gain a comprehensive understanding of the dataset and prepare it for further analysis and modeling
 
 ## Modelling
+1. Linear regression model
+
+A simple linear regression model was built using the square footage of living space (sqft_living) as the predictor due to its strong correlation with house prices and linear relationship.
+![alt text](image-2.png)
+
+The resulting linear regression model had an R-squared value of 0.49, indicating that 49% of the variance in house prices could be explained by square footage alone. However, this model showed significant variability in predictions, as evidenced by a high Root Mean Squared Error (RMSE) of approximately 256,860.61.
+
+2. Multiple linear regression model
+
+The subsequent multiple linear regression model incorporated a broader set of features to better capture the variance in house prices, resulting in an improved R-squared value of 0.676.
+
+To enhance the predictive power and normality of the target variable, we performed a log transformation on house prices (price), leading to a more symmetric distribution
+![alt text](image-3.png)
+Using log-transformed price;
+![alt text](image-4.png)
+This log-transformed multiple linear regression model achieved a higher R-squared value of 0.772, explaining approximately 77.2% of the variance in log-transformed prices.
+
+## Conclusion
+
+The multiple linear regression analysis revealed significant relationships between various features and house prices. Factors such as the number of bedrooms, bathrooms, square footage (sqft_living), waterfront location, grade, and location coordinates (latitude and longitude) emerged as key predictors of housing prices. The model also highlighted the impact of specific features on price variation, offering insights into how different attributes contribute to property valuations.
 
