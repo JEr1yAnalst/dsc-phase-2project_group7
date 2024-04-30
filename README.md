@@ -7,15 +7,8 @@ The aim of this project is to analyze the King County House Sales dataset, which
 
 We use an iterative process to prepare and model our data while utilizing exploratory data analysis to better understand our dataset. Next, we try to iterate across models using various statistical techniques in order to identify the model with the best statistical R-Squared Value, RMSE, and differential values.
 
-## Business understanding
-The following are the goals which we aim to address within this analysis:
-
-1. Explore and understand the structure and content of the King County House Sales dataset.
-2. Perform descriptive analysis to gain insights into key features, trends, and patterns in the data.
-3. Identify factors that significantly influence house prices in King County.
-4. Build predictive models to estimate house prices based on relevant features and attributes.
-5. Evaluate and validate the performance of the predictive models using appropriate metrics.
-6. Provide actionable insights and recommendations based on the analysis to stakeholders.
+## Stakeholder & Business understanding
+The stakeholder for this project is a real estate agency specializing in residential property transactions. The business problem revolves around the need to offer strategic advice to homeowners on how specific renovations can impact their homes' market value. By understanding which home features contribute most significantly to property valuation, the agency can provide valuable guidance to clients seeking to maximize their investment returns through targeted improvements.
 
 ## Data understanding
 This project utilizes the King County House Sales dataset, which is available in the kc_house_data.csv file located in the data folder of this GitHub repository. A comprehensive description of the column names can be found in the column_names.md file in the same folder. While the column names provide some information, it is important to note that further research or informed judgment may be necessary to fully understand the meaning of the data.
